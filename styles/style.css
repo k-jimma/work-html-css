@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/*
+default Styling
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    background: #f79315;
+}
+
+.button a {
+    color: #fff;
+}
+
+
+/*header
+*/
+.header {}
+.header-logo {}
+.header-nav {
+    display: flex;
+}
+.header-nav-menu {
+    display: flex;
+    list-style-type: none;
+}
+.header-nav-menu-item {
+    text-align: center;
+}
+
+.header-nav-menu-item + .header-nav-menu-item {
+    margin: 0 0 0 20px;
+}
+
+.header-nav-menu-item a {
+    color: #5c5c5c;
+}
