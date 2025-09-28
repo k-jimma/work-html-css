@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+
+/*
+header
+*/
+
+.header-logo-laptop,
+.header-nav-pc,
+.header-button-link {
+    display: none;
+}
+
+.header-nav,
+.header-nav-menu-item-en,
+.header-nav-menu-item-ja {
+    display: block;
+}
+
+.header-nav {
+    width: auto;
+    height: auto;
+}
+
+.header-nav-hamburger-menu-icon-open {
+    width: 40px;
+}
+
+
+
+
+/*
+main
+*/
+
+.main-hero-img-left-up,
+.main-hero-img-right-down,
+.main-hero-img-ellipse,
+.main-hero-img-profile {
+    display: none;
+}
+
+.main-hero-img-mobile-profile {
+    width: 100%;
+}
+
+
+.main-hero-highlight-img {
+    width: 120px;
+    position: absolute;
+    top: -20px;
+    left: 310px;
+}
+
