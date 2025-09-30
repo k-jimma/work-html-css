@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+@media screen and (min-width: 1080px) {
+    /*
+    header
+    */
+
+    .header-nav {
+        display: flex;
+    }
+
+    .header-nav-mobile {
+        display: none;
+    }
+
+    .header-nav-pc,
+    .header-button-link {
+        display: block;
+    }
+
+    .header-nav-menu {
+        justify-content: space-between;
+    }
+
+
+    /*
+    main-hero
+    */
+    .main-hero-highlight {
+        position: relative;
+        max-width: 1040px;
+        padding: 250px 20px 0;
+        margin: 0 auto;
+    }
+
+    .main-hero-highlight-img {
+        width: 190px;
+        top: 160px;
+        left: 440px;
+    }
+
+}

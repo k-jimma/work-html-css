@@ -26,9 +26,6 @@ header
     width: 40px;
 }
 
-
-
-
 /*
 main
 */
@@ -44,6 +41,9 @@ main
     width: 100%;
 }
 
+.main-hero-highlight {
+    position: relative;
+}
 
 .main-hero-highlight-img {
     width: 120px;
